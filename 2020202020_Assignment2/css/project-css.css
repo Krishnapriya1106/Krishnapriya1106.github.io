@@ -1,0 +1,101 @@
+/*Navbar*/
+.navbar-dark {
+    padding: 12px;
+    background-color:#212121;
+    font-size:17px;
+}
+
+body  {
+    background:#444;
+    padding:100px 0;
+}
+
+/*carousel images*/
+.carousel-inner img {
+    width: 80%;
+}
+ 
+/*text*/
+.info  {
+    padding:50px;
+    color:white;
+}
+
+/*Nabar*/
+.navbar {
+  width: 100%;
+  background-color: #212121;
+}
+
+ /* Navbar links */
+.navbar-dark a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color:red;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar-dark a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color:black;
+}
+
+/* displays the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width:500px) {
+  .navbar-dark a {
+    float: none;
+    display: block;
+  }
+}
+
+/*Slide*/
+#down, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color:brown;
+    border: solid 1px #c3c3c3;
+    color:white;
+}
+
+/*text*/
+#para  {
+    padding:50px;
+    text-align:center;
+    color:white;
+}
+
+#text  {
+  padding:50px
+  text-align:center;
+}
+
+#feed {
+    padding:50px;
+    color:white;
+    text-align:center;
+}
+
+#down {
+    padding: 50px;
+    display: none;
+    color:black;
+    background-color:white;
+}
+
+/*blinking*/
+#blinking {
+    padding:50px; 
+    text-align:center;
+}
+#blink{
+    color:white;
+    padding:50px;
+    font-size:50px;
+}
